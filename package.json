@@ -55,7 +55,7 @@
     "uglify-js": "^3.0.19"
   },
   "scripts": {
-    "lint": "eslint src test",
+    "lint": "echo hello; eslint src test; echo world",
     "lint:fix": "eslint --fix src test",
     "clean:node": "rimraf index.js lib",
     "clean:es": "rimraf es",
